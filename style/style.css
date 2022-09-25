@@ -1,0 +1,133 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+ul li.a{
+    color: white;
+}
+
+.thumbnail {
+position: relative;
+}
+
+.caption {
+position: absolute;
+top: 60%;
+left: 0;
+width: 100%;
+color: white;
+}
+
+
+
+ * {box-sizing: border-box;}
+
+ 
+
+#navbar {
+  overflow: hidden;
+  padding: 50px 10px;
+  transition: 1.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  
+ 
+} 
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+ 
+ 
+  line-height: 15px;
+  
+} 
+
+
+
+#navbar a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+ .explore{
+  background-color: rgb(163, 210, 241);
+ }
+
+.carou-height{
+  height: 75vh;
+}
+
+.section_heading {
+	margin-bottom: 30px;
+  margin-top: 10px;
+}
+.box-area{
+    height: 400px;
+}
+.sec-heading {
+	margin-bottom: 40px;
+  
+}
+.experience a:hover{
+  color: aliceblue;
+  cursor: pointer;
+}
+
+
+.single-box a {
+	font-weight: 500;
+	color: rgb(27, 26, 29);
+	padding-top: 60px;
+	font-size: 35px;
+  text-align: center;
+  font-weight:bolder;
+ 
+}
+
+.testi-carousel .owl-dots, .clients-carousel .owl-dots, .testi-carousel-three .owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -60px;
+	text-align: center;
+	width: 100%;
+}
+.testi-carousel .owl-dot, .clients-carousel .owl-dot, .testi-carousel-three .owl-dot {
+	width: 16px;
+	height: 16px;
+	background-color: #ddd;
+	display: inline-block;
+	margin: 0 6px;
+	text-align: center;
+	border-radius: 50%;
+}
+.testi-carousel .owl-dot.active, .clients-carousel .owl-dot.active, .testi-carousel-three .owl-dot.active {
+	background-color: blueviolet;
+}
+.festivals{
+  margin-top: 110px;
+}
+.festivals h1{
+ 
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.things{
+  text-decoration: none;
+}
+.thingsheading a  {
+  color: rgb(48, 42, 42);
+}
+.thingsheading a:hover{
+  color: white;
+  cursor: pointer;
+}
